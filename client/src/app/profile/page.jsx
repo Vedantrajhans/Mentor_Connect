@@ -405,7 +405,7 @@ export default function ProfilePage() {
         )}
 
         {/* Mentee-Specific Fields */}
-        {user.role === "mentee" && (
+        {user?.role === "mentee" && (
           <Card className="mb-6">
             <CardHeader>
               <CardTitle>Mentee Information</CardTitle>

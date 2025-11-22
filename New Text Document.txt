@@ -1,0 +1,112 @@
+📋 Login Credentials:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+👑 Admin:
+   Email: admin@mentorconnect.com
+   Password: admin123
+
+👨‍🏫 Sample Mentor:
+   Email: sarah.chen@stanford.edu
+   Password: mentor123
+
+👨‍🎓 Sample Mentee:
+   Email: john.doe@gmail.com
+   Password: mentee123
+
+
+Test Accounts Created
+Admin Account
+Email: admin@mentorconnect.com
+
+Password: admin123
+
+Sample Mentors (All password: mentor123)
+Sarah Chen - sarah.chen@stanford.edu - Stanford CS, AI/ML
+
+James Wilson - james.wilson@mit.edu - MIT EECS, Robotics
+
+Priya Sharma - priya.sharma@harvard.edu - Harvard Pre-Med
+
+David Kim - david.kim@berkeley.edu - UC Berkeley Business
+
+Emily Rodriguez - emily.rodriguez@columbia.edu - Columbia PoliSci
+
+Michael Chang - michael.chang@caltech.edu - Caltech Physics PhD
+
+Sophia Patel - sophia.patel@yale.edu - Yale Environmental Eng
+
+Alex Morgan - alex.morgan@princeton.edu - Princeton Math/CS
+
+Olivia Brown - olivia.brown@uchicago.edu - UChicago Economics
+
+Ryan Thompson - ryan.thompson@cornell.edu - Cornell Hospitality
+
+Jessica Lee - jessica.lee@duke.edu - Duke BME
+
+Carlos Santos - carlos.santos@northwestern.edu - Northwestern Journalism
+
+Sample Mentees (All password: mentee123)
+John Doe - john.doe@gmail.com - Interested in CS
+
+Emma Johnson - emma.johnson@gmail.com - Pre-Med/Neuroscience
+
+Daniel Garcia - daniel.garcia@gmail.com - Business/Entrepreneurship
+
+Sophia Williams - sophia.williams@gmail.com - Environmental Science
+
+Ethan Martinez - ethan.martinez@gmail.com - CS/Math
+
+What Gets Created
+✅ 12 Professional Mentors with:
+
+Realistic bios and expertise
+
+Profile photos (via Pravatar)
+
+University affiliations (top schools)
+
+Ratings (4.7-5.0) and review counts
+
+7-15 days of availability slots
+
+Diverse programs and backgrounds
+
+✅ 5 Mentee Accounts with:
+
+Target universities
+
+Desired programs
+
+Profile photos
+
+Realistic backgrounds
+
+✅ 1 Admin Account for platform management
+
+✅ 5 Sample Sessions:
+
+3 confirmed with Zoom links
+
+2 pending approval
+
+Resetting Database
+To clear and reseed:
+
+bash
+npm run seed
+This will:
+
+Delete all existing users and sessions
+
+Create fresh data
+
+Show new credentials
+
+Customization
+Add More Mentors:
+Just add objects to the mentors array in the script.
+
+Change Passwords:
+Modify the password field for any account.
+
+Adjust Availability:
+Change generateAvailability(14) number to generate more/fewer slots.
