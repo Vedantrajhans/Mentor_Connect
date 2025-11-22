@@ -16,7 +16,8 @@ server/node_modules/
 # Logs
 *.log
 
-mentor-connect-main/PRD mentorconnect.docx/
-mentor-connect-main/postman.json
-mentor-connect-main/New Text Document.txt
-mentor-connect-main/images.jpeg
+# unnecessary files
+PRD mentorconnect.docx
+postman.json
+New Text Document.txt
+images.jpeg
